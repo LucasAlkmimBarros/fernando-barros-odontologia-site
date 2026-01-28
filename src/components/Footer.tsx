@@ -1,5 +1,12 @@
 import { MessageCircle, Phone, Mail, MapPin, Heart } from 'lucide-react'
 
+// Ícone de dente customizado
+const ToothIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7 text-white">
+    <path d="M12 2C9.5 2 7.5 3.5 7 5.5C6.5 4.5 5.5 4 4.5 4C3 4 2 5.5 2 7.5C2 10 4 12 4 15C4 18 5 22 8 22C10 22 10.5 20 12 20C13.5 20 14 22 16 22C19 22 20 18 20 15C20 12 22 10 22 7.5C22 5.5 21 4 19.5 4C18.5 4 17.5 4.5 17 5.5C16.5 3.5 14.5 2 12 2Z" />
+  </svg>
+)
+
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -11,12 +18,8 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-400">
-                <img
-                  src="/foto-rosto-dr-fernando.png"
-                  alt="Dr. Fernando Barros"
-                  className="w-full h-full object-cover"
-                />
+              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-full flex items-center justify-center">
+                <ToothIcon />
               </div>
               <div>
                 <h4 className="text-xl font-bold">Dr. Fernando Barros</h4>
