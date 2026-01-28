@@ -1,6 +1,6 @@
 export const treatments = [
   { name: 'Tratamentos de canal', description: 'Incisivos, pré-molares e molares' },
-  { name: 'Clareamento dental', description: 'Sistema caseiro personalizado' },
+  { name: 'Clareamento dental', description: 'Sistema personalizado' },
   { name: 'Coroas dentárias', description: 'Jaqueta, metálica e metalocerâmica' },
   { name: 'Pontes fixas', description: 'Reposição de dentes ausentes' },
   { name: 'Restaurações', description: 'Tratamentos com resina de alta qualidade' },

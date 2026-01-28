@@ -43,8 +43,7 @@ export function About() {
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Há mais de <strong>40 anos</strong> cuidando da saúde bucal e do sorriso de nossos
-              pacientes com excelência e dedicação. Especialista em <strong>próteses e dentaduras</strong>,
-              o Dr. Fernando Barros oferece um portfólio completo de tratamentos odontológicos
+              pacientes com excelência e dedicação. Oferece um portfólio completo de tratamentos odontológicos
               com tecnologia moderna e atendimento humanizado.
             </p>
 
@@ -75,7 +74,7 @@ export function About() {
 
             <div className="flex items-center gap-4 text-gray-500">
               <Users className="w-5 h-5" />
-              <span>Milhares de pacientes atendidos com sucesso</span>
+              <span>Pacientes atendidos com sucesso</span>
             </div>
           </div>
         </div>

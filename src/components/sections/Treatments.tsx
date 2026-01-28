@@ -9,7 +9,7 @@ const treatments = [
   },
   {
     name: 'Clareamento Dental',
-    description: 'Sistema caseiro personalizado',
+    description: 'Sistema personalizado',
     icon: Sparkles,
     color: 'from-cyan-500 to-cyan-600'
   },
@@ -70,7 +70,7 @@ export function Treatments() {
             Tratamentos Especializados
           </h3>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Oferecemos uma ampla gama de tratamentos odontológicos com tecnologia
+            Oferecemos tratamentos odontológicos com tecnologia
             moderna e atendimento personalizado para cada paciente.
           </p>
         </div>
